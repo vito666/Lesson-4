@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen");
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+header.header .header-auth ul {
+    margin: 0;
+    padding: 0;
+}
+
+header.header {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    line-height: 44px;
+    font-family: "Oxygen", sans-serif;
+}
+
+header.header .header-wrap {}
+
+header.header .header-search,
+header.header .header-auth {
+    display: inline-block;
+    width: 48%;
+    position: relative;
+}
+
+header.header .header-search input {
+    width: 210px;
+    height: 25px;
+    border-right-color: #000;
+    color: #fff;
+    outline: none;
+    border: 2px solid #434a50;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+header.header .header-search input:focus {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+input[type="search"]:focus::-webkit-input-placeholder {
+    color: #fff
+}
+
+input[type="search"]:focus::-moz-placeholder {
+    color: #fff
+}
+
+input[type="search"]:focus: {
+    color: #fff
+}
+
+input[type="search"]:focus:-moz-placeholder {
+    color: #fff
+}
+
+i.fa.fa-search {
+    position: absolute;
+    top: 27%;
+    left: 39%;
+    color: #434a50;
+    font-size: 17px;
+}
+
+header.header .header-search > input:focus + i.fa-search {
+    color: #fff;
+}
+
+header.header .header-search > input:focus:valid {
+    border: 3px solid #3CC93E;
+    color: green;
+}
+
+header.header .header-search > input:focus:invalid {
+    border: 2px solid red;
+}
+
+header.header .header-auth ul {
+    margin: 0;
+    padding: 0;
+}
+
+header.header .header-auth li>a {
+    text-decoration: none;
+    color: #434a50;
+}
+
+header.header .header-auth li a:hover {
+    color: #fff;
+}
+
+header.header .header-auth li a i {
+    margin-right: 5px;
+}
+
+header.header .header-auth li:first-child {
+    margin-right: 10px;
+}
+
+.headerbg {
+    display: inline-block;
+    background-color: #474747;
+    width: 100%;
+    height: 72px;
+}
+
+.headerbg div img {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 180px;
+    height: 50px;
+}
+
+.headerbg ul > li {
+    line-height: 62px;
+}
+
+.headerbg ul li {
+    width: 100px;
+    text-align: center;
+}
+
+ul.list-inline li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Ahome {
+    border-top: 10px solid #ffae00;
+}
+
+.Ahome:hover {
+    background-color: #ffae00;
+    transition: 2s;
+}
+
+.Atypography {
+    border-top: 10px solid #fc7100;
+}
+
+.Atypography:hover {
+    background-color: #fc7100;
+    transition: 2s;
+}
+
+.Ablog {
+    border-top: 10px solid #e51c5e;
+}
+
+.Ablog:hover {
+    background-color: #e51c5e;
+    transition: 2s;
+}
+
+.Apages {
+    border-top: 10px solid #ae0f8d;
+}
+
+.Apages:hover {
+    background-color: #ae0f8d;
+    transition: 2s;
+}
+
+.Aelements {
+    border-top: 10px solid #6d0fae;
+}
+
+.Aelements:hover {
+    background-color: #6d0fae;
+    transition: 2s;
+}
+
+.Aecommerse {
+    border-top: 10px solid #33227a;
+}
+
+.Aecommerse:hover {
+    background-color: #33227a;
+    transition: 2s;
+}
+
+.Amegamenu {
+    border-top: 10px solid #0c8fcc;
+}
+
+.Amegamenu:hover {
+    background-color: #0c8fcc;
+    transition: 2s;
+}
+
+section {
+    margin-top: 66px;
+}
+
+.m0p0 {
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-inner > .item img {
+    width: 100%;
+    height: 870px;
+}
+
+ol.carousel-indicators li {
+    width: 20px;
+    height: 4px;
+    margin: 1px;
+    background-color: #fff;
+}
+
+ol.carousel-indicators li.active {
+    width: 25px;
+    height: 6px;
+    margin: 1px;
+    background-color: #02baab;
+}
+
+.item .carousel-caption {
+    top: 35%;
+}
+
+.item .carousel-caption h1 {
+    color: aqua;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.item .carousel-caption h2 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 100;
+}
+
+.item .carousel-caption button:hover {
+    background-color: #02baab;
+    color: #fff;
+}
+
+.item .carousel-caption button {
+    background-color: transparent;
+    border: 1px solid #02baab;
+    border-radius: 10px 10px;
+    color: #02baab;
+    font-size: 17px;
+}
+
+.stealOfMonth {
+    background-color: #fff;
+    width: 100%;
+    height: 28em;
+}
+
+.stealOfMonth h1 {
+    font-family: "Oxygen", sans-serif;
+    font-size: 40px;
+    color: #3b4954;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 400;
+}
+
+.stealOfMonth p {
+    font-family: "Oxygen", sans-serif;
+    font-size: 25px;
+    color: #3b4954;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.stealOfMonth button:hover {
+    background-color: #02baab;
+    color: #fff;
+}
+
+.stealOfMonth button {
+    background-color: transparent;
+    border: 1px solid #02baab;
+    color: #02baab;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.latestWorks {
+    background-color: #525252;
+    width: 100%;
+    height: 740px;
+}
+
+.latestWorks h1 {
+    font-family: "Oxygen", sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 400;
+}
+
+.latestWorks p {
+    font-family: "Oxygen", sans-serif;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.carouselMarginTop {
+    margin-top: 100px;
+}
+
+.carousel-inner > .item .col-sm-4 a img {
+    width: 290px;
+    height: 290px;
+    margin: 0 auto;
+    border-radius: 15px 15px;
+}
+
+.col-sm-4 div {
+    position: absolute;
+    background-color: #3d3d3d;
+    height: 90px;
+    width: 20.714em;
+    opacity: 0.9;
+    bottom: 0;
+    left: 45px;
+}
+
+.col-sm-4.text-center div p {
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    margin: 10px;
+}
+
+.col-sm-4.text-center div p+p {
+    font-size: 11px;
+    color: #0aa99c;
+    text-align: left;
+}
+
+.col-sm-4.text-center div p+p+i {
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    left: 240px;
+    bottom: 60px;
+}
+
+.col-sm-4.text-center div p+p+i+p {
+    color: #0aa99c;
+    text-align: right;
+    margin-right: 38px;
+}
